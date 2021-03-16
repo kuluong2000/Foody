@@ -10,7 +10,8 @@
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: url(/images/bg.jpg) no-repeat;
+    background: url(../images/bg.jpg) no-repeat;
+   
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -165,7 +166,7 @@ header.sticky ul li a{
 }
 .menu .content .box:hover{
     width: 345px;
-    margin: 15px;
+    margin:20px;
     border: 15px solid #fff;
     cursor: pointer;
     box-shadow:0 5px 35px rgba(0, 0, 0, 0.08);
@@ -221,6 +222,11 @@ header.sticky ul li a{
 .expert .content .box{
     width: 250px;
     margin: 20px;
+    cursor: pointer;
+}
+.expert .content .box:hover{
+    width: 255px;
+    margin:20px;
 }
 .expert .content .box .imgbx{
     position: relative;
@@ -243,7 +249,7 @@ header.sticky ul li a{
     font-weight: 500;
 }
 .testimonials{
-    background: url(/images/bg2.jpg) no-repeat;
+    background: url(../images/bg2.jpg) no-repeat;
     background-size: cover;
 }
 .testimonials  .white,
@@ -296,7 +302,7 @@ header.sticky ul li a{
     padding-top: 20px;
 }
 .contact{
-     background: url(/images/bg3.jpg) no-repeat;
+     background: url(../images/bg3.jpg) no-repeat;
      background-size: cover;
 }
 .contact .contactForm{
@@ -405,14 +411,14 @@ footer a{
         position: relative;
         width: 40px;
         height: 40px;
-        background: url(/images/menu.png);
+        background: url(../images/menu.png);
         background-repeat: no-repeat;
         background-size: 30px;
         background-position: center;
         cursor: pointer;
     }
     .menuToggle.active{
-        background: url(/images/close.png) ;
+        background: url(../images/close.png) ;
         background-repeat: no-repeat;
         background-size: 25px;
         background-position: center;
